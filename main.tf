@@ -47,7 +47,7 @@ resource "github_repository" "main" {
 
 resource "github_repository_pull_request" "example" {
     base_repository = "htc-integration/HTC_RedQG"
-    base_ref        = "main"
+    base_ref        = "feature/test-red-qg-base"
     head_ref        = "feature/red_qg"
     title           = "My newest feature"
     body            = "This will change everything"

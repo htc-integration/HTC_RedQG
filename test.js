@@ -4,3 +4,10 @@ var b = "8";
 if (a === b) {
   console.log("result");
 }
+
+var a = 6;
+var b = "6";
+
+if (a === b) {
+  console.log("result");
+}
